@@ -1,0 +1,32 @@
+{
+  "name": "anydoor_nuby",
+  "version": "0.1.0",
+  "description": "This NodeJS Static Web server",
+  "main": "src/app.js",
+  "bin": {
+    "anydoor": "bin/anydoor"
+  },
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "express": "^4.16.4",
+    "handlebars": "^4.1.2",
+    "yargs": "^13.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.13.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/647siqi/anydoor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/647siqi/anydoor/issues"
+  },
+  "homepage": "https://github.com/647siqi/anydoor#readme"
+}
